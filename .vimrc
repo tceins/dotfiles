@@ -14,11 +14,11 @@ set scrolloff=5         " show at least 5 lines above/below
 filetype on             " enable filetype detection
 filetype indent on      " enable filetype-specific indenting
 filetype plugin on      " enable filetype-specific plugins
-" colorscheme cobalt      " requires cobalt.vim to be in ~/.vim/colors
+colorscheme cobalt      " requires cobalt.vim to be in ~/.vim/colors
 
 " column-width visual indication
-let &colorcolumn=join(range(81,999),",")
-highlight ColorColumn ctermbg=235 guibg=#001D2F
+let &colorcolumn=join(range(120,999),",")
+highlight ColorColumn ctermbg=234 guibg=#05093E
 
 " tabs and indenting
 set autoindent          " auto indenting
